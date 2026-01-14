@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	environment {
-		DOCKERHUB_CRED=credentials('dockerhub')
+		DOCKERHUB_CRED=credentials('vd')
 		IMAGE_NAME="vs1ms24mc107/flasskk"
 	}
 	
